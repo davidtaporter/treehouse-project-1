@@ -27,6 +27,7 @@ a:hover {
   width: 100%;
   background: black;
   min-height: 30px;
+  max-height: 60px;
   padding: 10px;
   position: fixed;
   text-align: center;
@@ -40,7 +41,7 @@ a:hover {
   padding: 0;
 }
 .nav .flag{
-  transform: translatex(250px);
+  transform: translatex(260px) translatey(-8px);
 }
 .nav .name {
     display: block;
